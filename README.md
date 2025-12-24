@@ -14,7 +14,7 @@ Sistema simple de gestión de gastos personales desarrollado en Python con SQLit
 
 ```bash
 # Clonar el repositorio
-git clone <tu-repositorio>
+git clone https://github.com/JVILCABANAM/Control_de_gastos.git
 
 # Navegar al directorio
 cd Calculo_gastos
