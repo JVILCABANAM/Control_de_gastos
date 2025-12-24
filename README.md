@@ -1,6 +1,5 @@
 # 💵 Sistema de Gestión de Gastos Personales
 
-Sistema simple de gestión de gastos personales desarrollado en Python con SQLite.
 
 ## 📋 Características
 
@@ -82,7 +81,4 @@ La base de datos `gastos.db` se crea automáticamente con la siguiente estructur
 - **nombre_gasto**: Nombre del gasto (TEXT)
 - **monto_gasto**: Monto del gasto (REAL)
 
-## 👨‍💻 Autor
-
-Desarrollado con ❤️ para gestión personal de gastos.
 
