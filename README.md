@@ -16,7 +16,7 @@
 git clone https://github.com/JVILCABANAM/Control_de_gastos.git
 
 # Navegar al directorio
-cd Calculo_gastos
+cd Control_de_gastos
 ```
 
 ## 📦 Requisitos
