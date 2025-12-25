@@ -9,12 +9,12 @@ def ingresar_gasto():
     try:
         nombre_gasto = input("📝 Ingrese el nombre del gasto: ").strip()
         if not nombre_gasto:
-            print("❌ Error: El nombre del gasto no puede estar vacío")
+            print("Error: El nombre del gasto no puede estar vacío")
             return
         
         monto_gasto = float(input("💰 Ingrese el monto del gasto: "))
         if monto_gasto <= 0:
-            print("❌ Error: El monto debe ser mayor a cero")
+            print("Error: El monto debe ser mayor a cero")
             return
         
         fecha_input = input("📅 Ingrese la fecha (YYYY-MM-DD) o presione Enter para usar hoy: ").strip()
@@ -24,7 +24,7 @@ def ingresar_gasto():
                 fecha_obj = datetime.strptime(fecha_input, "%Y-%m-%d")
                 fecha = fecha_obj.strftime("%Y-%m-%d")
             except ValueError:
-                print("❌ Error: Formato de fecha inválido. Use el formato YYYY-MM-DD (ejemplo: 2024-01-15)")
+                print("Error: Formato de fecha inválido. Use el formato YYYY-MM-DD (ejemplo: 2024-01-15)")
                 return
         else:
             fecha = datetime.now().strftime("%Y-%m-%d")
